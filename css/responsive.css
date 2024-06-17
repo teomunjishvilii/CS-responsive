@@ -1,0 +1,29 @@
+/* Tablet (Large) - 1024px styles */
+
+@media only screen and (max-width: 1024px) {
+  .navigation ul li:not(li:last-child) {
+    margin-right: 44px;
+  }
+}
+
+/* Tablet (Small) - 744px styles */
+
+@media only screen and (max-width: 744px) {
+  .navigation ul li:not(li:last-child) {
+    margin-right: 22px;
+  }
+}
+
+/* Mobile - 375px styles */
+
+@media only screen and (max-width: 630px) {
+  .navigation,
+  .action_button {
+    display: none;
+  }
+
+  .burger_menu_icon,
+  .hidden_menu {
+    display: flex;
+  }
+}
